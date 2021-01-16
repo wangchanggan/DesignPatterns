@@ -4,18 +4,15 @@
 简单工厂模式专门定义一个类来负责创建其他类的实例，被创建的实例通常都具有共同的父类。
 */
 
-package simple_factory
+package creational_patterns
 
 type Factory struct {
-
 }
 
 type A struct {
-
 }
 
 type B struct {
-
 }
 
 type Interface interface {

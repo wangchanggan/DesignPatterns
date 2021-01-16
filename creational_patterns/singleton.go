@@ -19,7 +19,7 @@ func (o *Once) Do(f func()) {
     }
 }*/
 
-package singleton
+package creational_patterns
 
 import "sync"
 
